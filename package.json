@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "author": "joe06102 <joe06102@gmail.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@blocksuite/presets": "0.12.0-nightly-202401192115-2887c20",
+    "@blocksuite/store": "0.12.0-nightly-202401192115-2887c20",
+    "umi": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "typescript": "^5.3.3"
+  }
+}
